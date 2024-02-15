@@ -31,6 +31,19 @@
     padding-bottom: 1rem;
   }
   
+  #img-caption{
+    text-align: center;
+  }
+  
+  #tribute-info{
+    padding: 0 29vw;
+  }
+  
+  .quote{
+    text-align: left;
+    font-style: italic;
+  }
+  
   p{
     text-align: center;
   }

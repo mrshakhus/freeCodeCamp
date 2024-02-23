@@ -9,16 +9,17 @@ body{
   }
   
   #JS_Documentation{
+    margin-top: 1rem;
     text-align: center;
   }
   
   #navbar{
     position: fixed;
     height: 100%;
-    width: 19vw;
-    min-width: 100px;
-    padding: 1rem;
-    margin-top: -1vh;
+    width: 300px;
+    min-width: 290px;
+    padding: 0;
+    margin-top: -1.4vh;
     border-right: solid 3px rgb(0, 22, 22);
   }
   
@@ -27,16 +28,21 @@ body{
   }
   
   nav li{
+    position: relative;
+    display: list-item;
+    text-align: -webkit-match-parent;
     list-style-type: none;
     border-top: solid 2px rgb(0, 22, 22);
+    width: 100%;
   }
   
   nav ul{
-    margin-left: -1rem;
+    margin-left: -3rem;
   }
   
   #content{
-    padding: 2rem;
+    margin-left: 310px;
+    padding: 2rem 2rem 2rem 3rem;
   }
   
   .nav-link{

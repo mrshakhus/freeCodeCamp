@@ -56,17 +56,16 @@
     text-align: center;
   }
   
-  #form{
-    display: flex;
-    justify-content: center;
-  }
-  
   #email{
-    width: 200px;
+    display: block;
+    margin: 0 auto;
+    width: 260px;
     height: 30px;
   }
   
   #submit{
+    display: block;
+    margin: 1rem auto 0 auto;
     width: 140px;
     height: 30px;
     font-weight: 800;
@@ -90,7 +89,8 @@
   }
   
   #video{
-    display: flex;
+    display: block;
+    margin: 0 auto;
   }
   
   /* Price cards -> */
